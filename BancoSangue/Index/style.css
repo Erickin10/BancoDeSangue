@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2? family= Source+Code+Pro & display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.cbc-img{
+    height: 72px;
+}
+.cbc-cad-img{
+    height: 60px;
+}
+.cbc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    font-family: 'Source Code Pro', monospace;
+    color: #d3d3d3;
+    padding: 32px;
+}
+.cbc-cad{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center; 
+    font-family: 'Source Code Pro', monospace;
+    color: #d3d3d3;
+    padding: 32px;
+    font-size: 24px;
+    gap: 20px;    
+}
+
+body{
+    background-color: #161A1D;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.estrutura{
+    display: flex;
+    flex-direction: column;
+    padding: 140px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-top: 0.4px solid #d3d3d3;
+    
+ }
+
+
+
+ .estrutura-cad{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-top: 0.4px solid #d3d3d3;
+    
+ }
+
+input{
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: none;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    outline: none;
+    color: #d3d3d3;
+}
+
+input::placeholder{
+    color: #f5f3f4;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 16px;
+}
+
+input[type=submit]{
+    background-color: #a4161a;
+    border: none;
+    color: #d3d3d3;
+    cursor: pointer;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 26px;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    width: 440px;
+ }
+
+
+
+ a{
+    color: #ba181b;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+ }
+
+ a:hover{
+     text-decoration: underline;
+ }
+
+ .sucess_msg{
+    width: 420px;
+    margin: 550px auto;
+    padding: 10px;
+    background-color: rgba(77, 175, 68, 0.7);
+    font-family: 'Source Code Pro', monospace;
+    font-weight:bold;
+    text-align: center;
+ }
+
+ .error_msg{
+    width: 420px;
+    margin: 550px auto;  
+    padding: 10px;
+    background-color: #ba181b ;
+    font-family: 'Source Code Pro', monospace;
+    font-weight:bold;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
